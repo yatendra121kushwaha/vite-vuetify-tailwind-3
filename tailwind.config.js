@@ -1,11 +1,11 @@
 module.exports = {
   prefix: 'tw-',
-  darkMode: undefined,
-  separator: '',
+  darkMode: 'class',
+  separator: ':',
   corePlugins: {
     preflight: true
   },
-  content: ['./index.html', './src/**/*.{vue,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {}
   },
