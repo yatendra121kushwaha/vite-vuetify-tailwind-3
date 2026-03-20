@@ -9,7 +9,7 @@
     "config-key-merge": "node portalConfig",
     "tsc": "vue-tsc --noEmit",
     "lint": "eslint . --config=.eslintrc.js --fix",
-    "format": "prettier .  --write",
+    "format": "prettier . --write",
     "test:e2e": "cypress open",
     "test:unit": "jest --verbose",
     "test:unit-vite": "vitest",
@@ -89,11 +89,11 @@
     "vite": "7.0.0",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-pwa": "^1.0.0",
-    "vite-plugin-vuetify": "2.1.1",
+    "vite-plugin-vuetify": "^2.2.0",
     "vitest": "^3.2.4",
     "volar-service-vetur": "^0.0.64",
     "vue-tsc": "^2.2.10",
-    "vuetify": "^3.8.11",
+    "vuetify": "^4.0.0",
     "webfontloader": "^1.6.28"
   }
 }
