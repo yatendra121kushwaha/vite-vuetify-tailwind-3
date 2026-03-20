@@ -1,4 +1,4 @@
-import type { VuetifyOptions } from 'vuetify/lib/framework'
+import type { VuetifyOptions } from 'vuetify'
 
 const config: VuetifyOptions['defaults'] = {
     VBtn: {},
@@ -10,19 +10,19 @@ const config: VuetifyOptions['defaults'] = {
     },
     VTextField: {
         //density: 'compact',
-        ///variant: 'outlined',
+        //variant: 'outlined',
         color: 'primary',
         clearable: true
     },
     VTextarea: {
         //density: 'compact',
-        ///variant: 'outlined',
+        //variant: 'outlined',
         color: 'primary',
         clearable: true
     },
     VAutocomplete: {
         //density: 'compact',
-        ///variant: 'outlined',
+        //variant: 'outlined',
         color: 'primary',
         clearable: true
     },
@@ -34,7 +34,7 @@ const config: VuetifyOptions['defaults'] = {
         hover: true
         // itemsPerPage: 100,
         // loadingText: 'fsdfsdfdsffsfds',
-        // noDataText: 'dssssssssssssssssssssss',
+        // noDataText: 'dsssssssssssssssssssssss',
     }
 }
 
