@@ -4,7 +4,7 @@
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "strict": true,
     "jsx": "preserve",
     "jsxImportSource": "vue",
@@ -16,9 +16,9 @@
     "noImplicitThis": true,
     "lib": ["esnext", "dom"],
     "allowJs": true,
+    "types": ["vitest/globals", "@qnx/vuetify"],
     "paths": {
-      "@/*": ["src/*"],
-      "types": ["vitest", "@qnx/vuetify"]
+      "@/*": ["src/*"]
     },
     "baseUrl": "."
   },
